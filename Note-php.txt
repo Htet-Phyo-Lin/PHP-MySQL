@@ -1,0 +1,17 @@
+1.Greeting
+
+    $greeting="hello world";
+    require "index.view.php"
+
+
+2.For loop သုံးနည်း
+
+    $names = [
+        "Htet Phyo Lin",
+        "Kyaw Kyaw",
+        "Kaung Kaung"
+    ];
+
+    // foreach ($names as $name) {
+    //     echo $name.",";
+    // }

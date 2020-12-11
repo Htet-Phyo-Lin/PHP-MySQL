@@ -1,0 +1,20 @@
+1. Greeting
+
+<h1> <?= $greeting;?> </h1>
+
+
+2.For loop သုံးနည်း
+
+    <ul>
+        <!-- <?php
+            foreach ($names as $name) {
+                echo "<li>$name</li>";
+            }
+        ?> -->
+
+        <?php foreach ($names as $name) : ?>
+            <li><?=$name?></li>
+        <?php endforeach; ?>
+
+    </ul>
+
