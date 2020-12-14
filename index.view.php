@@ -7,16 +7,11 @@
     <title></title>
 </head>
 
-<style> 
-    h1{
-        align: center;
-        background-color: grey;
-        padding: 2em;
-    }
-</style>
-
 <body>
 
+    <?php foreach($person as $key=>$info):?>
+        <li><?= $key." - ".$info ?></li>
+    <?php endforeach; ?>
 
 </body>
 </html>
